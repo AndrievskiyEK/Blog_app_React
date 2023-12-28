@@ -1,0 +1,103 @@
+.posts__section{   
+    width: 500px;    
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post{     
+    position: relative;
+}
+
+.post__text-input{
+    display: block;
+    width:500px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.post__btn-delete,
+.post__btn-edit {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 10px;  
+  opacity: 0.5;
+  transition: opacity 0.3s;
+  border: none;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+.post__btn-delete {
+    right: 10px;
+    background-image: url(../../assets/delete_img.png); 
+}
+
+.post__btn-edit{
+    right: 40px;        
+    background-image: url(../../assets/edit_img.png);    
+}
+
+.post__btn-delete:hover ,
+.post__btn-edit:hover {
+  opacity: 1;
+}
+ 
+.post__title{
+    display: block;    
+    width: 500px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    margin-bottom: 15px;
+    word-wrap: break-word; /* для поддержки старых браузеров */
+    overflow-wrap: break-word; /* для современных браузеров */
+    -ms-word-break: break-all; /* для Internet Explorer */
+    word-break: break-all; /* для других браузеров */
+}
+  
+.post__text{
+    display: block;
+    width: 500px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;    
+    word-wrap: break-word; /* для поддержки старых браузеров */
+    overflow-wrap: break-word; /* для современных браузеров */
+    -ms-word-break: break-all; /* для Internet Explorer */
+    word-break: break-all; /* для других браузеров */
+}
+  
+  
+.post__data{
+    color: #0094FF;
+}
+
+.validation__text{
+    display: block;
+    width: 500px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: red;    
+    word-wrap: break-word; /* для поддержки старых браузеров */
+    overflow-wrap: break-word; /* для современных браузеров */
+    -ms-word-break: break-all; /* для Internet Explorer */
+    word-break: break-all; /* для других браузеров */
+}

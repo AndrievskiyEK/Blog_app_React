@@ -1,0 +1,9 @@
+.post__text-input{
+    display: block;
+    margin-top: 20px;
+    width:500px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}

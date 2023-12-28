@@ -1,0 +1,16 @@
+.post__btn{
+    margin-top: 39px;
+    width: 500px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    background-color: #0094FF;
+    cursor: pointer;
+}
+
+.post__btn:disabled{
+    color: #FFFFFF;
+    background-color: gray;
+}
